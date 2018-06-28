@@ -3,10 +3,10 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <SharedGUID>{0EB428C1-61BC-49DC-AD52-D6B8F6A442D8}</SharedGUID>
+    <SharedGUID>{D4EDDABD-980B-4D05-BA1F-4A609DEA2057}</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>AndroidXAMLApp</Import_RootNamespace>
+    <Import_RootNamespace>Demo.Xamarin</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml">

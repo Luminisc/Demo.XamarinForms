@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{21AFD0CB-1D0F-4332-B066-F21CA65FEEC8}</ProjectGuid>
+    <ProjectGuid>{E38C0ACC-13B5-403D-AF48-1325D31D741D}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>AndroidXAMLApp.Droid</RootNamespace>
-    <AssemblyName>AndroidXAMLApp.Android</AssemblyName>
+    <RootNamespace>Demo.Xamarin.Droid</RootNamespace>
+    <AssemblyName>Demo.Xamarin.Android</AssemblyName>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -90,6 +90,6 @@
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
-  <Import Project="..\AndroidXAMLApp\AndroidXAMLApp.projitems" Label="Shared" />
+  <Import Project="..\Demo.Xamarin\Demo.Xamarin.projitems" Label="Shared" />
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

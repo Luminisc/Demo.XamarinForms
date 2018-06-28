@@ -6,17 +6,11 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Xamarin.Forms;
 
-namespace AndroidXAMLApp.Droid
+namespace Demo.Xamarin.Droid
 {
-    [Activity(Label = "AndroidXAMLApp", 
-		Icon = "@mipmap/icon", 
-		Theme = "@style/MainTheme", 
-		MainLauncher = true, 
-		ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation
-		)]
-    public class MainActivity : Xamarin.Forms.Platform.Android.FormsAppCompatActivity
+    [Activity(Label = "Demo.Xamarin", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)
         {
@@ -25,7 +19,7 @@ namespace AndroidXAMLApp.Droid
 
             base.OnCreate(bundle);
 
-            Forms.Init(this, bundle);
+            global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }
     }
